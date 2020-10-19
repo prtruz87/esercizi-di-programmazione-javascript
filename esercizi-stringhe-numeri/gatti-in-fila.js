@@ -17,3 +17,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var gatti = 44;
+var gattiinfila = 6;
+var file = Math.ceil(gatti/gattiinfila);
+var mancanti = (file*gattiinfila)-gatti;
+console.log(file);
+console.log(mancanti);
