@@ -11,3 +11,8 @@
 
   http://www.imparareaprogrammare.it
 */
+var annocorrente = 2018;
+var annonascita = 1991;
+var età = annocorrente-annonascita;
+var annimancanti = 100-età;
+console.log('matteo ha '+età+' anni e glie ne mancano '+annimancanti+' per arrivare a 100');
