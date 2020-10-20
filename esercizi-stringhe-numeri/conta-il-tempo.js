@@ -1,4 +1,4 @@
-/*
+  /*
   Conta il tempo
   Scrivi un programma che dato un numero di secondi, calcoli la quantità di ore, minuti e secondi corrispondenti e
   poi stampi il risultato. L'output avrà solo numeri interi.
@@ -12,3 +12,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var secondi = 12560;
+var ore = Math.floor(secondi/3600);
+var minuti = Math.floor((secondi-(ore*3600))/60);
+var secondirim = (secondi-(ore*3600)-(minuti*60));
+console.log(ore + ' ore, ' + minuti + ' minuti e ' + secondirim + ' secondi.');
+
